@@ -1,0 +1,3 @@
+install @types/node library => npm install --save-dev @types/node
+
+ts code execution => npx tsx index.ts
