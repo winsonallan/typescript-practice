@@ -1,3 +1,5 @@
+// TYPESCRIPT'S GOAL IS TO CATCH ERRORS AS FAST AS POSSIBLE TO MINIMIZE DEVELOPMENT TIME THAT GETS USED BY DEBUGGING JAVASCRIPT
+
 import axios from "axios";
 
 const url = "https://jsonplaceholder.typicode.com/users/1";

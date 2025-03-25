@@ -1,0 +1,6 @@
+Type => Easy way to refer to the different properties + functions that a value has.
+
+Why do we care about types? 
+1. Types are used by the TypeScript compiler to analyze our code for errors
+2. Types allow other engineers to understand what values are flowing around our codebase
+

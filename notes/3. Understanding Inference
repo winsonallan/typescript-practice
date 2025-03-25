@@ -1,0 +1,11 @@
+When do we use annotations or inference?
+
+Annotations: 
+  - When a function returns the 'any' type and we need to clarify the value
+  - When we declare a variable on one line then initialize it later
+  - When we want a variable to have a type that can't be inferred
+  
+
+- The type 'any' means TS has no idea what this is -> Can't check for correct property references.
+
+- Avoid variables with 'any' at all costs
