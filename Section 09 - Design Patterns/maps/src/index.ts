@@ -1,12 +1,13 @@
-// import { Company } from "./Company";
-// import { User } from "./User";
+import { Company } from "./Company";
+import { CustomMap } from "./CustomMap";
+import { User } from "./User";
 
-const mapEl = document.getElementById("map")!;
+const user = new User();
+const company = new Company();
+const customMap = new CustomMap("map");
 
-new google.maps.Map(mapEl, {
-	zoom: 1,
-	center: {
-		lat: 0,
-		lng: 0,
-	},
-});
+// customMap.addUserMarker(user);
+// customMap.addCompanyMarker(company);
+
+customMap.addMarker(user);
+customMap.addMarker(company);
