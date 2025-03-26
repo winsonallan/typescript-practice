@@ -59,3 +59,9 @@ const drink = {
 };
 
 printSummary(drink);
+
+// drink, oldCivic, and oldCivic2 must satisfy the Reportable interface to work with the printSummary function. It's as if the interface is the gatekeeper to the said function
+
+// This is useful for reusable code.
+// |__ Create functions that accept arguments that are typed with interfaces
+// |__ Objects/classes can decide to 'implement' a given interface to work with a function
