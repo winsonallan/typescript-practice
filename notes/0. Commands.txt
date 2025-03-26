@@ -9,3 +9,7 @@ FakerJS
 install => npm install --save-exact @faker-js/faker@7.6.0
 then import => import { faker } from "@faker-js/faker";
 if no type def use npm install @types/libraryname
+
+gmaps API Key: AIzaSyAXwRNFksnxRXxiGVTLeQGaWOyJ7qJzH8M
+
+gmaps library: npm install @types/google.maps
