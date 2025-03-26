@@ -1,3 +1,11 @@
 install @types/node library => npm install --save-dev @types/node
 
 ts code execution => npx tsx index.ts
+
+building the app and run the deployment server => npx parcel index.html
+
+FakerJS
+-----------
+install => npm install --save-exact @faker-js/faker@7.6.0
+then import => import { faker } from "@faker-js/faker";
+if no type def use npm install @types/libraryname
