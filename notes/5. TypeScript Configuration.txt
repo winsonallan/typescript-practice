@@ -1,0 +1,16 @@
+Output Build Files to Different folder
+======================================
+1. Generate config file => tsc.init
+2. Open the generated tsconfig.json file, search for rootdir and outdir
+3. Configure rootdir to your typescript code folder
+4. Configure outdir to your desired build output folder
+5. Run command 'tsc' (or 'tsc -w' if you want to enable automatic building as we change the typescript code)
+6. Run 'node [js file directory]' to run the built js files.
+7. If you don't want to re-run the node command every time, do these:
+  7a) npm init -y
+  7b) npm install nodemon concurrently
+  7c) Open package.json and in the 'scripts' section add these:
+    - "start:build": "tsc -w",
+    - "start:run": "nodemon build/index.js",
+    - "start": "concurrently npm start:*"
+  7d) npm start
