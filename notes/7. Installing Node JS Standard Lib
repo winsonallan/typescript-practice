@@ -1,0 +1,4 @@
+Instead of npm install @types/{name of library}
+
+For node modules, we have to do this:
+npm install @types/node
