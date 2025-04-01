@@ -1,0 +1,11 @@
+Interfaces
+==========
+1. Sets up a contract between different classes
+2. Use when we have different objects that we want to work together
+3. Promotes loose coupling
+
+Inheritance / Abstract Classes
+==============================
+1. Sets up a contract between different classes
+2. Use when we are trying to build up a definition of an object
+3. Strongly  couples classes together.

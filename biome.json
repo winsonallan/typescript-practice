@@ -7,7 +7,7 @@
 	},
 	"files": {
 		"ignoreUnknown": false,
-		"ignore": ["**"]
+		"ignore": []
 	},
 	"formatter": {
 		"enabled": true,
@@ -19,7 +19,7 @@
 	"linter": {
 		"enabled": false,
 		"rules": {
-			"recommended": true
+			"recommended": false
 		}
 	},
 	"javascript": {
