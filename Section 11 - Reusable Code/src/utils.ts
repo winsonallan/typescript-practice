@@ -1,7 +1,7 @@
-import { parse } from "path";
+import { parse } from 'path';
 
 export const dateStringToDate = (dateString: string): Date => {
-	const dateParts = dateString.split("/").map((value: string): number => {
+	const dateParts = dateString.split('/').map((value: string): number => {
 		return parseInt(value);
 	});
 
